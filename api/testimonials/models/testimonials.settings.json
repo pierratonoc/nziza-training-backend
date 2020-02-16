@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "testimonials",
+  "info": {
+    "name": "Testimonials"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "occupation": {
+      "type": "string"
+    },
+    "office": {
+      "type": "string"
+    },
+    "message": {
+      "type": "richtext"
+    }
+  }
+}

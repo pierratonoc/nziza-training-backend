@@ -1,0 +1,40 @@
+{
+  "info": {
+    "name": "professionals"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "occupation": {
+      "type": "string"
+    },
+    "office": {
+      "type": "string"
+    },
+    "degree": {
+      "type": "string"
+    },
+    "intake": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "email": {
+      "type": "email"
+    },
+    "profile": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  },
+  "connection": "default",
+  "collectionName": "professionals"
+}

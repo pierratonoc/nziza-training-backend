@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "teams",
+  "info": {
+    "name": "Team"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "occupation": {
+      "type": "string"
+    },
+    "brief": {
+      "type": "string"
+    },
+    "profile": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "email": {
+      "type": "email"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

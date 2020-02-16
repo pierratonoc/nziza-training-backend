@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "courses",
   "info": {
     "name": "courses"
   },
@@ -34,8 +36,9 @@
       "via": "related",
       "plugin": "upload",
       "required": false
+    },
+    "note": {
+      "type": "string"
     }
-  },
-  "connection": "default",
-  "collectionName": "courses"
+  }
 }
