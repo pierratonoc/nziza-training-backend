@@ -1,0 +1,28 @@
+{
+  "info": {
+    "name": "Works"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "author": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "works"
+}
